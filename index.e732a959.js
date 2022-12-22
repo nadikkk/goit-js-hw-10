@@ -1,0 +1,2 @@
+!function(){function e(e){return e&&e.__esModule?e.default:e}var n={};Object.defineProperty(n,"__esModule",{value:!0}),n.default=function(e){return e&&e.constructor===Symbol?"symbol":typeof e};var o="peru";fetch("https://restcountries.com/v3.1/name/${nameCountry}").then((function(e){return e.json()})).then((function(e){return console.log(e)})),console.log("https://restcountries.com/v3.1/name/${nameCountry}"),console.log(e(n)(o),o,"${nameCountry}")}();
+//# sourceMappingURL=index.e732a959.js.map
